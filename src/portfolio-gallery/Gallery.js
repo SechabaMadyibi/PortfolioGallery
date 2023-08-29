@@ -10,6 +10,9 @@ function Gallery(){
     const categoryData = Data.map((value)=>{
           return value.category
      });
+
+// pass the categoryData into the new set() method with the spread operator (…)to convert it into an object
+// set and also, also add “all”. then assign it to the tabsData.
     const tabsData= ["all", ...new Set(categoryData)];
 
 // Declare an event handler as an arrow function filterCategory with const keyword and
