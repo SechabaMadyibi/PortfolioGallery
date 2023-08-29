@@ -11,7 +11,6 @@ function Tabs({filterCategory, tabsData}){
  })
  }
 
-
 </div>
         </>
     )
